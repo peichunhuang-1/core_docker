@@ -1,0 +1,4 @@
+add_executable(core_tcp_client_test client_test.cpp)
+add_executable(core_tcp_server_test server_test.cpp)
+
+target_link_libraries(core_tcp_server_test core_tcp glog::glog)

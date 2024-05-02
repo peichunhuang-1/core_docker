@@ -90,5 +90,3 @@ RUN git clone https://github.com/google/glog.git -b v0.6.0 && \
     make && \
     make install && \
     cd ../..
-
-COPY tcp tcp
